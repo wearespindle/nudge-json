@@ -23,23 +23,23 @@
             "targetedOSVersionsRule": "14"
         },
         {
-            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/124149",
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/124927",
             "aboutUpdateURLs": [
                 {
                     "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/124149"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/124927"
                 },
                 {
                     "_language": "de",
-                    "aboutUpdateURL": "https://support.apple.com/de-de/124149"
+                    "aboutUpdateURL": "https://support.apple.com/de-de/124927"
                 },
                 {
                     "_language": "nl",
-                    "aboutUpdateURL": "https://support.apple.com/nl-nl/124149"
+                    "aboutUpdateURL": "https://support.apple.com/nl-nl/124927"
                 }
             ],
-            "requiredInstallationDate": "2025-08-19T10:00:00Z",
-            "requiredMinimumOSVersion": "15.6",
+            "requiredInstallationDate": "2025-08-27T10:00:00Z",
+            "requiredMinimumOSVersion": "15.6.1",
             "targetedOSVersionsRule": "default"
         }
     ],
