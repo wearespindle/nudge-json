@@ -1,103 +1,103 @@
 {
-  "optionalFeatures": {
-    "acceptableCameraUsage": true,
-    "acceptableScreenSharingUsage": true,
-    "aggressiveUserExperience": true,
-    "aggressiveUserFullScreenExperience": true,
-    "attemptToCheckForSupportedDevice": true,
-    "attemptToFetchMajorUpgrade": false,
-    "enforceMinorUpdates": true,
-    "refreshSOFAFeedTime": 43200
-  },
-  "osVersionRequirements": [
-    {
-      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/125110",
-      "aboutUpdateURLs": [
-        {
-          "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/125110"
-        },
-        {
-          "_language": "de",
-          "aboutUpdateURL": "https://support.apple.com/de-de/125110"
-        },
-        {
-          "_language": "nl",
-          "aboutUpdateURL": "https://support.apple.com/nl-nl/125110"
-        }
-      ],
-      "requiredInstallationDate": "2025-10-14T10:00:00Z",
-      "requiredMinimumOSVersion": "26.0",
-      "targetedOSVersionsRule": "default"
+    "optionalFeatures": {
+        "acceptableCameraUsage": true,
+        "acceptableScreenSharingUsage": true,
+        "aggressiveUserExperience": true,
+        "aggressiveUserFullScreenExperience": true,
+        "attemptToCheckForSupportedDevice": true,
+        "attemptToFetchMajorUpgrade": false,
+        "enforceMinorUpdates": true,
+        "refreshSOFAFeedTime": 43200
     },
-    {
-      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/125111",
-      "aboutUpdateURLs": [
+    "osVersionRequirements": [
         {
-          "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/125111"
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/125328",
+            "aboutUpdateURLs": [
+                {
+                    "_language": "en",
+                    "aboutUpdateURL": "https://support.apple.com/en-us/125328"
+                },
+                {
+                    "_language": "de",
+                    "aboutUpdateURL": "https://support.apple.com/de-de/125328"
+                },
+                {
+                    "_language": "nl",
+                    "aboutUpdateURL": "https://support.apple.com/nl-nl/125328"
+                }
+            ],
+            "requiredInstallationDate": "2025-10-20T10:00:00Z",
+            "requiredMinimumOSVersion": "26.0.1",
+            "targetedOSVersionsRule": "default"
+        },
+        {
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/125329",
+            "aboutUpdateURLs": [
+                {
+                    "_language": "en",
+                    "aboutUpdateURL": "https://support.apple.com/en-us/125329"
+                }
+            ],
+            "requiredInstallationDate": "2025-10-20T10:00:00Z",
+            "requiredMinimumOSVersion": "15.7.1",
+            "targetedOSVersionsRule": "15"
         }
-      ],
-      "requiredInstallationDate": "2025-09-29T10:00:00Z",
-      "requiredMinimumOSVersion": "15.7",
-      "targetedOSVersionsRule": "15"
+    ],
+    "userExperience": {
+        "allowedDeferrals": 32,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 7,
+        "nudgeMajorUpgradeEventLaunchDelay": 90
+    },
+    "userInterface": {
+        "fallbackLanguage": "en",
+        "forceFallbackLanguage": false,
+        "forceScreenShotIcon": false,
+        "iconDarkPath": "/Users/Shared/Voys-logos/logoLight.png",
+        "iconLightPath": "/Users/Shared/Voys-logos/logoDark.png",
+        "showDeferralCount": true,
+        "showRequiredDate": true,
+        "simpleMode": false,
+        "singleQuitButton": false,
+        "updateElements": [
+            {
+                "_language": "en",
+                "actionButtonText": "Update Device",
+                "informationButtonText": "More Info",
+                "mainContentHeader": "Your Mac will restart during this update.",
+                "mainContentNote": "Important Notes",
+                "mainContentSubHeader": "Updates can take around 30 - 60 minutes to complete.",
+                "mainContentText": "🛡️ A fully up-to-date device is required to ensure that we can accurately protect your device.\n\n🔄 To begin the update, simply click on the Update Device button and follow the provided steps.\n\n🔌 You must connect your Mac to a power supply in order to install the required macOS update.",
+                "mainHeader": "This Mac requires a security update",
+                "primaryQuitButtonText": "Later",
+                "secondaryQuitButtonText": "I understand",
+                "subHeader": "A friendly reminder from the Voys security circle."
+            },
+            {
+                "_language": "de",
+                "actionButtonText": "Gerät aktualisieren",
+                "informationButtonText": "Mehr Informationen",
+                "mainContentHeader": "Ihr Mac wird während dieser Aktualisierung neu gestartet.",
+                "mainContentNote": "Wichtige Hinweise",
+                "mainContentSubHeader": "Die Aktualisierung kann etwa 30 - 60 Minuten in Anspruch nehmen.",
+                "mainContentText": "🛡️ Ein vollständig aktualisiertes Gerät ist erforderlich, um sicherzustellen, dass wir dein Gerät effektiv schützen können.\n\n🔄 Um das Update zu starten, klicke oben rechts auf die Schaltfläche 'Gerät aktualisieren' und befolge die angegebenen Schritte.\n\n🔌 Sie müssen Ihren Mac an eine Stromversorgung anschließen, um das erforderliche macOS-Update installieren zu können.",
+                "mainHeader": "Dieser Mac benötigt ein Sicherheitsupdate",
+                "primaryQuitButtonText": "Später",
+                "secondaryQuitButtonText": "Ich verstehe",
+                "subHeader": "Eine freundliche Erinnerung aus dem Voys security circle."
+            },
+            {
+                "_language": "nl",
+                "actionButtonText": "Apparaat bijwerken",
+                "informationButtonText": "Meer informatie",
+                "mainContentHeader": "Je Mac wordt tijdens deze update opnieuw opgestart.",
+                "mainContentNote": "Belangrijke opmerkingen",
+                "mainContentSubHeader": "Updates kunnen ongeveer 30 - 60 minuten duren.",
+                "mainContentText": "🛡️ Een volledig up-to-date apparaat is vereist om ervoor te zorgen dat we je apparaat goed kunnen beschermen.\n\n🔄 Om de update te starten, klik je op de knop Apparaat bijwerken en volg je de stappen.\n\n🔌 Je moet je Mac aansluiten op een voeding om de vereiste macOS-update te kunnen installeren.",
+                "mainHeader": "Deze Mac heeft een security update nodig",
+                "primaryQuitButtonText": "Stel uit",
+                "secondaryQuitButtonText": "Ik begrijp het",
+                "subHeader": "Een vriendelijke herinnering van de Voys security circle."
+            }
+        ]
     }
-  ],
-  "userExperience": {
-    "allowedDeferrals": 32,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 7,
-    "nudgeMajorUpgradeEventLaunchDelay": 90
-  },
-  "userInterface": {
-    "fallbackLanguage": "en",
-    "forceFallbackLanguage": false,
-    "forceScreenShotIcon": false,
-    "iconDarkPath": "/Users/Shared/Voys-logos/logoLight.png",
-    "iconLightPath": "/Users/Shared/Voys-logos/logoDark.png",
-    "showDeferralCount": true,
-    "showRequiredDate": true,
-    "simpleMode": false,
-    "singleQuitButton": false,
-    "updateElements": [
-      {
-        "_language": "en",
-        "actionButtonText": "Update Device",
-        "informationButtonText": "More Info",
-        "mainContentHeader": "Your Mac will restart during this update.",
-        "mainContentNote": "Important Notes",
-        "mainContentSubHeader": "Updates can take around 30 - 60 minutes to complete.",
-        "mainContentText": "🛡️ A fully up-to-date device is required to ensure that we can accurately protect your device.\n\n🔄 To begin the update, simply click on the Update Device button and follow the provided steps.\n\n🔌 You must connect your Mac to a power supply in order to install the required macOS update.",
-        "mainHeader": "This Mac requires a security update",
-        "primaryQuitButtonText": "Later",
-        "secondaryQuitButtonText": "I understand",
-        "subHeader": "A friendly reminder from the Voys security circle."
-      },
-      {
-        "_language": "de",
-        "actionButtonText": "Gerät aktualisieren",
-        "informationButtonText": "Mehr Informationen",
-        "mainContentHeader": "Ihr Mac wird während dieser Aktualisierung neu gestartet.",
-        "mainContentNote": "Wichtige Hinweise",
-        "mainContentSubHeader": "Die Aktualisierung kann etwa 30 - 60 Minuten in Anspruch nehmen.",
-        "mainContentText": "🛡️ Ein vollständig aktualisiertes Gerät ist erforderlich, um sicherzustellen, dass wir dein Gerät effektiv schützen können.\n\n🔄 Um das Update zu starten, klicke oben rechts auf die Schaltfläche 'Gerät aktualisieren' und befolge die angegebenen Schritte.\n\n🔌 Sie müssen Ihren Mac an eine Stromversorgung anschließen, um das erforderliche macOS-Update installieren zu können.",
-        "mainHeader": "Dieser Mac benötigt ein Sicherheitsupdate",
-        "primaryQuitButtonText": "Später",
-        "secondaryQuitButtonText": "Ich verstehe",
-        "subHeader": "Eine freundliche Erinnerung aus dem Voys security circle."
-      },
-      {
-        "_language": "nl",
-        "actionButtonText": "Apparaat bijwerken",
-        "informationButtonText": "Meer informatie",
-        "mainContentHeader": "Je Mac wordt tijdens deze update opnieuw opgestart.",
-        "mainContentNote": "Belangrijke opmerkingen",
-        "mainContentSubHeader": "Updates kunnen ongeveer 30 - 60 minuten duren.",
-        "mainContentText": "🛡️ Een volledig up-to-date apparaat is vereist om ervoor te zorgen dat we je apparaat goed kunnen beschermen.\n\n🔄 Om de update te starten, klik je op de knop Apparaat bijwerken en volg je de stappen.\n\n🔌 Je moet je Mac aansluiten op een voeding om de vereiste macOS-update te kunnen installeren.",
-        "mainHeader": "Deze Mac heeft een security update nodig",
-        "primaryQuitButtonText": "Stel uit",
-        "secondaryQuitButtonText": "Ik begrijp het",
-        "subHeader": "Een vriendelijke herinnering van de Voys security circle."
-      }
-    ]
-  }
 }
