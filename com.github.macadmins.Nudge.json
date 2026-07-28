@@ -2,28 +2,32 @@
     "optionalFeatures": {
         "acceptableCameraUsage": true,
         "acceptableScreenSharingUsage": true,
+        "aggressiveUserExperience": true,
+        "aggressiveUserFullScreenExperience": true,
+        "attemptToCheckForSupportedDevice": true,
         "attemptToFetchMajorUpgrade": false,
+        "enforceMinorUpdates": true,
         "refreshSOFAFeedTime": 43200
     },
     "osVersionRequirements": [
         {
-            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/127595",
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/128067",
             "aboutUpdateURLs": [
                 {
                     "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/127595"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/128067"
                 },
                 {
                     "_language": "de",
-                    "aboutUpdateURL": "https://support.apple.com/de-de/127595"
+                    "aboutUpdateURL": "https://support.apple.com/de-de/128067"
                 },
                 {
                     "_language": "nl",
-                    "aboutUpdateURL": "https://support.apple.com/nl-nl/127595"
+                    "aboutUpdateURL": "https://support.apple.com/nl-nl/128067"
                 }
             ],
-            "requiredInstallationDate": "2026-07-13T14:00:00Z",
-            "requiredMinimumOSVersion": "26.5.2",
+            "requiredInstallationDate": "2026-08-10T14:00:00Z",
+            "requiredMinimumOSVersion": "26.6",
             "targetedOSVersionsRule": "default"
         }
     ],
@@ -32,9 +36,15 @@
         "allowedDeferralsUntilForcedSecondaryQuitButton": 25
     },
     "userInterface": {
+        "fallbackLanguage": "en",
+        "forceFallbackLanguage": false,
+        "forceScreenShotIcon": false,
         "iconDarkPath": "/Users/Shared/Voys-logos/logoLight.png",
         "iconLightPath": "/Users/Shared/Voys-logos/logoDark.png",
+        "showDeferralCount": true,
         "showRequiredDate": true,
+        "simpleMode": false,
+        "singleQuitButton": false,
         "updateElements": [
             {
                 "_language": "en",
