@@ -7,23 +7,23 @@
     },
     "osVersionRequirements": [
         {
-            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/148281",
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/149042",
             "aboutUpdateURLs": [
                 {
                     "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/148281"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/149042"
                 },
                 {
                     "_language": "de",
-                    "aboutUpdateURL": "https://support.apple.com/de-de/148281"
+                    "aboutUpdateURL": "https://support.apple.com/de-de/149042"
                 },
                 {
                     "_language": "nl",
-                    "aboutUpdateURL": "https://support.apple.com/nl-nl/148281"
+                    "aboutUpdateURL": "https://support.apple.com/nl-nl/149042"
                 }
             ],
-            "requiredInstallationDate": "2026-08-25T13:00:00Z",
-            "requiredMinimumOSVersion": "26.6.2",
+            "requiredInstallationDate": "2026-09-22T13:00:00Z",
+            "requiredMinimumOSVersion": "26.7",
             "targetedOSVersionsRule": "default"
         }
     ],
