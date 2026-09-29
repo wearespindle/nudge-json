@@ -7,23 +7,43 @@
     },
     "osVersionRequirements": [
         {
-            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/149042",
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/149228",
             "aboutUpdateURLs": [
                 {
                     "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/149042"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/149228"
                 },
                 {
                     "_language": "de",
-                    "aboutUpdateURL": "https://support.apple.com/de-de/149042"
+                    "aboutUpdateURL": "https://support.apple.com/de-de/149228"
                 },
                 {
                     "_language": "nl",
-                    "aboutUpdateURL": "https://support.apple.com/nl-nl/149042"
+                    "aboutUpdateURL": "https://support.apple.com/nl-nl/149228"
                 }
             ],
-            "requiredInstallationDate": "2026-09-22T13:00:00Z",
-            "requiredMinimumOSVersion": "26.7",
+            "requiredInstallationDate": "2026-10-13T13:00:00Z",
+            "requiredMinimumOSVersion": "26.7.1",
+            "targetedOSVersionsRule": "26"
+        },
+        {
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/100100",
+            "aboutUpdateURLs": [
+                {
+                    "_language": "en",
+                    "aboutUpdateURL": "https://support.apple.com/en-us/100100"
+                },
+                {
+                    "_language": "de",
+                    "aboutUpdateURL": "https://support.apple.com/de-de/100100"
+                },
+                {
+                    "_language": "nl",
+                    "aboutUpdateURL": "https://support.apple.com/nl-nl/100100"
+                }
+            ],
+            "requiredInstallationDate": "2026-10-13T13:00:00Z",
+            "requiredMinimumOSVersion": "27.0.1",
             "targetedOSVersionsRule": "default"
         }
     ],
@@ -43,7 +63,7 @@
                 "informationButtonText": "More Info",
                 "mainContentHeader": "**Your Mac will restart during this update.**",
                 "mainContentNote": "**Important Notes**",
-                "mainContentSubHeader": "Updates can take around 30 minutes to complete.",
+                "mainContentSubHeader": "Updates can take around 30 minuten to complete.",
                 "mainContentText": "🛡️ Please update to ensure your Mac remains secure and compliant with organizational policies.\n\n🔄 To begin the update, simply click on the Update Device button and follow the provided steps.\n\n🔌 You must connect your Mac to a power supply in order to install the required macOS update.",
                 "mainHeader": "**This Mac requires a security update**",
                 "primaryQuitButtonText": "Later",
